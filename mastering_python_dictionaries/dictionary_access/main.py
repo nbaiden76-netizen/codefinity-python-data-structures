@@ -7,8 +7,7 @@ authors_books = {
 }
 
 # Write your code here
-kings_books = ___
-shakspeares_books = ___
-
+kings_books = authors_books['Stephen King']
+shakspeares_books = authors_books['William Shakespeare']
 # Testing
 print(f'William Shakespeare\'s books: {shakspeares_books} \nStephen King\'s books: {kings_books}')
