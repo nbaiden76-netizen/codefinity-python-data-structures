@@ -1,27 +1,24 @@
-space_movies = ('2001: A Space Odyssey', 'Interstellar', 'Star Wars: Episode IV - A New Hope', 'Gravity', 'The Martian')
+drama_movies = (
+    'The Shawshank Redemption',
+    'Forrest Gump',
+    'The Godfather',
+    'A Beautiful Mind',
+    'Fight Club',
+    'The Green Mile',
+    'The Pursuit of Happyness',
+    'Schindler\'s List'
+)
 
 # Write your code here
-first_movie = space_movies[0]
-last_movie = space_movies[-1]
+fight_club_index = drama_movies.index('Fight Club')
 
-favorite_movies = [first_movie, last_movie]
+# Testing
+print("The 'Fight Club' movie is at index:", fight_club_index)
 
-# Testing 
-print("Favorite movies about space:", favorite_movies)
+# Tuple of movies
+#movies = ("Inception", "Interstellar", "Tenet", "Dunkirk", "Memento")
 
-# movies = ("Inception", "Interstellar", "The Dark Knight", "Tenet", "Dunkirk", "Memento", "Following")
+# Find the index of "Tenet"
+#tenet_index = movies.index("Tenet")
 
-# Accessing the second movie
-#print(movies[1])
-
-# Accessing the sixth movie
-#print(movies[5])
-
-#movies = ("Inception", "Interstellar", "The Dark Knight", "Tenet", "Dunkirk", "Memento", "Following")
-
-# Accessing the last movie
-#print(movies[-1])
-
-# Accessing the fourth movie from the end
-#print(movies[-4])
-
+#print(f"'Tenet' is at index {tenet_index}.")
