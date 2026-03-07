@@ -17,20 +17,20 @@ marvel_movies.discard("Justice League")
 print("Updated set:", marvel_movies)
 
 # Attempting to remove movies
-movies = {"Inception", "Interstellar", "Tenet", "Dunkirk"}
+#movies = {"Inception", "Interstellar", "Tenet", "Dunkirk"}
 
 # Remove specific movies
-movies.remove("Dunkirk")
-movies.remove("Avatar")  # This will raise a `KeyError`
+#movies.remove("Dunkirk")
+#movies.remove("Avatar")  # This will raise a `KeyError`
 
 
 # Define a set of favorite movies
-movies = {"Inception", "Interstellar", "Tenet", "Dunkirk", "Memento"}
+#movies = {"Inception", "Interstellar", "Tenet", "Dunkirk", "Memento"}
 
 # Remove specific movies using discard
-movies.discard("Dunkirk")
-movies.discard("Memento")
-movies.discard("Avatar")
+#movies.discard("Dunkirk")
+#movies.discard("Memento")
+#movies.discard("Avatar")
 
 # Print the result
-print("Final set:", movies)
+#print("Final set:", movies)
